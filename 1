@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float mark1,mark2;
+float percentage;
+clrscr;
+printf("\n enter marks of first subject:");
+scanf("\n %f, &mark1);
+printf("\n enter marks of second subject:");
+scanf("\n %f, &mark2);
+percentage=((mark1+mark2)/200)*100;
+if (percentage>40)
+printf("\n the student is passed");
+else
+printf("\n the student is failed");
+getch();
+}
